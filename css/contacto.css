@@ -4,7 +4,6 @@
 body{
 	height: 100%; 
 	font-family: BatmanForeverAlternate, sans-serif;
-  background-color: #8b0404; 
 }
 header{
 	width: 1305;
@@ -12,6 +11,11 @@ header{
 header h1{
 	text-align: center;
 }
+.fondo {
+  background-image: url("https://www.amd.com/system/files/texture-blurry-carbon-screen-1920x600.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
 
 
 .contact_form{	

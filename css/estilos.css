@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Teko:wght@500&display=swap');
 @charset "UTF-8";
+
 * {
   margin: 0;
   padding: 0; }
@@ -13,7 +15,13 @@ html {
   margin: 3em auto;
   width: 60%;
   flex-direction: row;
-  box-shadow: 1px 1px 0 black, 2px 2px 0 black, 3px 3px 0 black, 4px 4px 0 black, 5px 5px 0 black, 6px 6px 0 black, 7px 7px 0 black; }
+  box-shadow: 1px 1px 0 black,
+ 2px 2px 0 black,
+ 3px 3px 0 black,
+ 4px 4px 0 black,
+ 5px 5px 0 black,
+ 6px 6px 0 black,
+ 7px 7px 0 black; }
 
 .field > input[type=text],
 .field > button {
@@ -53,7 +61,9 @@ header img {
 
 .nav-bebas {
   font-family: 'Bebas Neue'; }
-
+.Teko{
+  font-family: 'Teko';
+}
 .logo-tamaño {
   width: 50%;
   height: 50%;
@@ -108,7 +118,7 @@ form {
   background-color: transparent;
   width: 100%;
   height: 100%;
-  border: ridge 1px white;
+  border: ridge 2px white;
   border-radius: 10px;
   display: flex;
   flex-direction: row;
@@ -148,10 +158,9 @@ svg {
   justify-content: center !important; }
 
 .sticky {
-  position: sticky;
-  top: 0;
-  background-color: gray; }
-
+   background-color: #141E30;
+  background: linear-gradient(to right, #24243e, #141E30, #0f0c29);
+  padding:0px 0; }
 .logo-size {
   width: 7%; }
 
@@ -197,7 +206,9 @@ svg {
   grid-template-rows: 1fr 1.4fr 0.6fr;
   gap: 30px 30px;
   grid-auto-flow: row;
-  grid-template-areas: "pub1 pub2" "pub1 pub3" "pub5 pub4";
+  grid-template-areas: "pub1 pub2"
+ "pub1 pub3"
+ "pub5 pub4";
   width: 90%;
   height: 800px;
   margin-top: 200px; }
@@ -262,7 +273,14 @@ footer {
   grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "texto1 texto2" "texto1 texto2" "texto1 texto2" "texto1 texto2" "texto1 texto2" "texto1 pagos" "texto1 pagos" "texto1 derechos";
+  grid-template-areas: "texto1 texto2"
+ "texto1 texto2"
+ "texto1 texto2"
+ "texto1 texto2"
+ "texto1 texto2"
+ "texto1 pagos"
+ "texto1 pagos"
+ "texto1 derechos";
   width: 100%;
   height: 100%;
   background-color: black; }
@@ -283,41 +301,45 @@ footer {
   grid-template-rows: 20% 20% 20% 20% 20%;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "i" "j" "k" "l" "m";
+  grid-template-areas: "i"
+ "j"
+ "k"
+ "l"
+ "m";
   grid-area: texto2; }
 
 .i {
   grid-area: i;
   font-size: 20px;
-  font-family: 'Bebas Neue';
+  font-family: 'Teko';
   margin-top: 50px;
   margin-left: 100px; }
 
 .j {
   grid-area: j;
   font-size: 20px;
-  font-family: 'Bebas Neue';
+  font-family: 'Teko';
   margin-top: 50px;
   margin-left: 100px; }
 
 .k {
   grid-area: k;
   font-size: 20px;
-  font-family: 'Bebas Neue';
+  font-family: 'Teko';
   margin-top: 50px;
   margin-left: 100px; }
 
 .l {
   grid-area: l;
   font-size: 20px;
-  font-family: 'Bebas Neue';
+  font-family: 'Teko';
   margin-top: 50px;
   margin-left: 100px; }
 
 .m {
   grid-area: m;
   font-size: 20px;
-  font-family: 'Bebas Neue';
+  font-family: 'Teko';
   margin-top: 50px;
   margin-left: 100px; }
 
@@ -327,63 +349,69 @@ footer {
   grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "a" "b" "c" "d" "e" "f" "g";
+  grid-template-areas: "a"
+ "b"
+ "c"
+ "d"
+ "e"
+ "f"
+ "g";
   grid-area: texto1;
   justify-content: center; }
 
 .a {
   grid-area: a;
   font-size: 20px;
-  font-family: 'Bebas Neue';
+  font-family: 'Teko';
   margin-top: 50px;
   margin-left: 100px; }
 
 .b {
   grid-area: b;
   font-size: 20px;
-  font-family: 'Bebas Neue';
+  font-family: 'Teko';
   margin-top: 50px;
   margin-left: 100px; }
 
 .c {
   grid-area: c;
   font-size: 20px;
-  font-family: 'Bebas Neue';
+  font-family: 'Teko';
   margin-top: 50px;
   margin-left: 100px; }
 
 .d {
   grid-area: d;
   font-size: 15px;
-  font-family: 'Bebas Neue';
+  font-family: 'Teko';
   margin-top: 50px;
   margin-left: 100px; }
 
 .e {
   grid-area: e;
   font-size: 20px;
-  font-family: 'Bebas Neue';
+  font-family: 'Teko';
   margin-top: 50px;
   margin-left: 100px; }
 
 .f {
   grid-area: f;
   font-size: 20px;
-  font-family: 'Bebas Neue';
+  font-family: 'Teko';
   margin-top: 50px;
   margin-left: 100px; }
 
 .g {
   grid-area: g;
   font-size: 20px;
-  font-family: 'Bebas Neue';
+  font-family: 'Teko';
   margin-top: 50px;
   margin-left: 100px; }
 
 .h {
   grid-area: h;
   font-size: 25px;
-  font-family: 'Bebas Neue';
+  font-family: 'Teko';
   margin-top: 50px;
   margin-left: 100px; }
 
